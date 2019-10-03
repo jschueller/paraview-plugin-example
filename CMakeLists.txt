@@ -23,3 +23,4 @@ paraview_plugin_build(
 
 add_executable(plugin_load main.cxx)
 target_link_libraries (plugin_load PRIVATE ParaView::pqApplicationComponents)
+target_link_libraries (plugin_load PRIVATE CellDerivatives)
