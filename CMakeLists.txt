@@ -21,4 +21,5 @@ paraview_plugin_scan(
 paraview_plugin_build(
   PLUGINS ${plugins})
 
-
+add_executable(plugin_load main.cxx)
+target_link_libraries (plugin_load PRIVATE ParaView::pqApplicationComponents)
