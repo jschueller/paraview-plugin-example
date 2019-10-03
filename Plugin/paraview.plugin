@@ -1,0 +1,8 @@
+NAME
+  CellDerivatives
+DESCRIPTION
+  Expose the vtkCellDerivatives class to ParaView.
+REQUIRES_MODULES
+  # This module provides the `vtkCellDerivatives` filter.
+  VTK::FiltersGeneral
+
